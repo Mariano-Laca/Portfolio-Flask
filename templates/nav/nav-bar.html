@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='css/nav-bar.css' ) }}">
+<nav class="navbar navbar-expand-lg navbar sticky-top ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item {% if request.endpoint=='index' %}active{%endif %}">
+          <a class="nav-link" href="{{ url_for('index')}}">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- <li class="nav-item {% if request.endpoint=='blog' %}active{%endif %}">
+          <a class="nav-link" href="{{ url_for('blog')}}">Blog</a>
+        </li> -->
+        <li class="nav-item {% if request.endpoint=='mostrarproyectos' %}active{%endif %}">
+          <a class="nav-link" href="{{ url_for('mostrarproyectos')}}">Mis proyectos</a>
+        </li>
+      </li>
+      <li class="nav-item {% if request.endpoint=='habilidades' %}active{%endif %}">
+        <a class="nav-link" href="{{ url_for('habilidades')}}">Habilidades</a>
+      </li>
+        <li class="nav-item {% if request.endpoint=='contacto' %}active{%endif %}">
+            <a class="nav-link" href="{{ url_for('contacto')}}">Contacto</a>
+          </li>
+
+      </ul>
+    </div>
+  </nav>

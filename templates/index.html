@@ -1,0 +1,111 @@
+{% extends "base/base.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{%block inicio%}
+
+<div class ="container">
+  <div align = "left">
+    <p>Mariano - Laca</p>
+    <h1>Desarrollador</h1>
+    <h1>Python</h1>
+
+  <div class="text">
+  <!--Texto con efecto JS-->
+    </div>
+<br><br>
+  </div>
+</div>
+
+<div id = "capa2">
+  <div id = "capa1">
+
+    <div class = "container">
+
+      <div class="row">   
+        <div class="col-6">
+        <div class ="capsula">
+  <img class = "r360"src="{{ url_for('static', filename='images/capsula-espacial.png') }}" /><!--https://www.flaticon.es/iconos-gratis/capsula-espacial--></div>
+</div>
+
+<div class="col-6">
+    <h2>Bienvenido a mi portfolio!</h2>
+    <br>
+    <p align ="left">
+       Hace algún tiempo, cuando era niño tuve la oportunidad
+       de adentrarme en el mundo de los ordenadores..
+       Y comencé a sentir curiosidad sobre como funcionaban sus aplicaciones..
+      </p>
+      <p align ="left">
+       Así que me dispuse a investigar por mi propia cuenta y conforme fui creciendo,
+       la curiosidad aumentó junto con mis conocimientos en el universo del desarrollo.
+      </p>
+      <p align ="left">
+       Desde ciberseguridad a la creación de video-juegos sentí
+       una temerosa atracción por la programación!
+       Y desde entonces he continuado mi camino como desarrollador..
+      </p>
+<br>
+      <a href="{{ url_for('mostrarproyectos')}}"><button>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        CONOCE MIS PROYECTOS
+      </button></a>
+</div>
+  </div>
+</div>
+
+
+<div id = "capa3">
+  <div id = "capa1">
+    <div class = "container">
+      <div class="row">   
+
+    <div class="col-6">
+
+      <h2>Me gusta aprender!</h2>
+      <br>
+      <p align ="left">
+         Mi lenguaje preferido de programación backend es Python. Me apasiona
+         tanto que desde hace años me he dedicado a enseñarlo en mi blog Pythones.net
+         donde muchos colegas me acompañan en su aprendizaje!
+        </p>
+        <p align ="left">
+        He aprendido a desarrollar proyectos siguiendo un modelo MVC y utilizando
+        diferentes Frameworks como Flask o Django. Así como también Pyqt 5 para
+        aplicaciones de escritorio Multiplataforma.
+        </p>
+        <p align ="left">
+         He aprendido a desarrollar aplicaciones utilizando Bases de datos Relacionales
+         y no relacionales como JSON. Entre otras habilidades de desarrollo que continúo
+         aprendiendo con tesón mientras curso una Licenciatura en Informática.
+        </p>
+  <br>
+        <a href="{{ url_for('habilidades')}}"><button>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          EXPLORA MIS HABILIDADES
+        </button></a>
+  
+  </div>
+  <div class="col-6">
+    <div class ="astroboy">
+<img class = "r360"src="{{ url_for('static', filename='images/astroboy.png') }}" /><!--https://png.pngtree.com/png-clipart/20210330/ourlarge/pngtree-planet-reading-astronaut-png-image_3165023.jpg--></div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+  {%endblock%}
+
+
+
+

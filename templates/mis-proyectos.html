@@ -1,0 +1,79 @@
+{% extends "base/base.html" %}
+
+{% block title %}Mis proyectos{% endblock %}
+
+{%block inicio %}
+
+
+<div class ="contenedor-neon-int">
+  <img class = "img-proyect" src="{{ url_for('static', filename='images/portfolio.jpg') }}" />
+<div class = "title-neon" >
+  <h3>Mi portfolio - Desarrollado utilizando Python 3 + Flask/Bootstrap</h3>
+<p class="mb-4"></p>
+<p class  ="p-neon">Este portfolio fue desarrollado en Python 3 utilizando el Framework para crear aplicaciones web Flask.
+  <br> Además he utilizado Bootstrap y CSS personalizado para darle un estilo de mi agrado. He creado numerosas guías y tutoriales en mi blog utilizando este portfolio de ejemplo
+  y he añadido también un repositorio en Github para ejemplificar el uso de GIT en un proyecto personal.
+
+</p>
+</div>
+
+<div align ="right">
+<a href="#" class ="button-proyect"><button>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  VER
+</button></a>
+</div>
+</div>
+
+  <div class ="contenedor-neon-int">
+    <img class = "img-proyect" src="{{ url_for('static', filename='images/blog-python.jpg') }}" />
+  <div class = "title-neon" >
+    <h3>Blog Personal sobre el lenguaje Python</h3>
+  <p class="mb-4"></p>
+  <p class  ="p-neon">Desde que comencé a aprender programación me percate que aprendo mejor sobre aquello que escribo. 
+    Por lo que decidí, hace algunos años, montar un blog en Wordpress donde enseño a programar en Python de la manera más didáctica posible.
+  <br><br>
+    Allí brindo ejemplos de código y comparto experiencias con mis lectores mientras disfruto de aprender de manera divertida junto a ellos lo que más me apasiona.
+  <br> </p>
+</div>
+
+  <div align ="right">
+  <a href="#" class ="button-proyect"><button>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    VER
+  </button></a>
+</div>
+</div>
+
+ 
+<div class ="contenedor-neon-int">
+  <img class = "img-proyect" src="{{ url_for('static', filename='images/mementor.jpg') }}" />
+<div class = "title-neon" >
+  <h3>MEMENTOR - Aplicación desarrollada utilizando Pyqt5</h3>
+<p class="mb-4"></p>
+<p class  ="p-neon">He desarrollado una aplicación de escritorio Multiplataforma en Pyqt5 a pedido del cliente que brinda la posibilidad de mostrar imágenes transparentes u otros videos en pantalla durante la transmisión de un vídeo en vivo solo presionando una atajo de teclado.
+<br><br>
+  La misma permite configurar imágenes, videos, sonidos, volumen, posición donde se muestra, atajos de teclado y estas configuraciones pueden ser almacenadas en un archivo JSON para su posterior uso.
+<br> </p>
+</div>
+
+<div align ="right">
+<a href="#" class ="button-proyect"><button>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  VER
+</button></a>
+</div>
+</div>
+
+
+
+{%endblock %}
