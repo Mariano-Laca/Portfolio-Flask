@@ -2,52 +2,53 @@
 
 {% block title %}Mis Habilidades{% endblock %}
 <!--Debo dividir las habilidades en Frontend - Backend- y Bases de datos-->
-
+{%block inicio%}{%endblock %}
 {%block columna8 %}
-<div class ="contenedor-neon-int">
-  <div class = "title-neon" >
-    <h2>¿Cuales son mis habilidades?</h2>
-    <p class="mb-4"></p>
-    <p class = "p-neon">
-      <center>
-      <h3><u>Habilidades personales</u></h3></center>
-      <br>
-      <ul>
-        <li><h4>Creatividad</h4>
-          <p>He recibido una beca a la edad de 9 años de la empresa Pilay.SA (2001) por "creatividad y buena predisposición al aprendizaje" y siempre me consideré una persona muy creativa, innovadora y de mente muy abierta a nuevas ideas o procesos de automatización de tareas mecánicas.
+
+  <div class ="contenedor-neon-int">
+    <div class = "title-neon" >
+      <h2>¿Cuales son mis habilidades?</h2>
+      <p class="mb-4"></p>
+      <p class = "p-neon">
+        <center>
+        <h3><u>Habilidades personales</u></h3></center>
+        <br>
+        <ul>
+          <li><h4>Creatividad</h4>
+            <p>He recibido una beca a la edad de 9 años de la empresa Pilay.SA (2001) por "creatividad y buena predisposición al aprendizaje" y siempre me consideré una persona muy creativa, innovadora y de mente muy abierta a nuevas ideas o procesos de automatización de tareas mecánicas.
+            </p>
+            </li>
+          <li><h4>Resolver problemas:</h4>
+          <p>Desde corta edad fui premiado por mi creatividad y predisposición a resolver problemas de formas muy creativas.
+            Un correcto balance entre eficacia y eficiencia son mis prioridades a la hora de resolver conflictos.
           </p>
           </li>
-        <li><h4>Resolver problemas:</h4>
-        <p>Desde corta edad fui premiado por mi creatividad y predisposición a resolver problemas de formas muy creativas.
-          Un correcto balance entre eficacia y eficiencia son mis prioridades a la hora de resolver conflictos.
-        </p>
-        </li>
-        <br>
-        <li>
-          <h4>Aprendizaje autodidacta:</h4>
-        <p>Me apasiona aprender por mi mismo y lo hago con notable rapidez, pero más que aprender; me encanta enseñar.
-        </p>
-        </li>
-        <br>
-        <li>
-          <h4>Compartir ideas y conocimiento:</h4>
-        <p>Me encanta intercambiar ideas y compartir mis conocimientos con otras personas afines. Es por ello que siempre me encuentro redactando para los lectores de mi blog personal, colegas de redes sociales y aprendices del lenguaje a través de diversos medios.
-        </p>
-        </li>
-        <br>
-        <li>
-          <h4>Iniciativa y curiosidad</h4>
-        <p>Tengo una terrible curiosidad por aprender y mejorar en todo aspecto que esté a mi alcance, soy una persona bastante inquieta. Por lo que a veces me aburro rápido si alguna actividad se vuelve demasiado mecánica o no presenta un desafío que me motive a superarme.</p>
-        <p>Por otro lado tengo mucha iniciativa cuando se trata de proyectos innovadores que involucran algún cambio social o desarrollo colectivo.
-        </p>
-        </li>
-      </ul>
-    </p>
-    <br>
+          <br>
+          <li>
+            <h4>Aprendizaje autodidacta:</h4>
+          <p>Me apasiona aprender por mi mismo y lo hago con notable rapidez, pero más que aprender; me encanta enseñar.
+          </p>
+          </li>
+          <br>
+          <li>
+            <h4>Compartir ideas y conocimiento:</h4>
+          <p>Me encanta intercambiar ideas y compartir mis conocimientos con otras personas afines. Es por ello que siempre me encuentro redactando para los lectores de mi blog personal, colegas de redes sociales y aprendices del lenguaje a través de diversos medios.
+          </p>
+          </li>
+          <br>
+          <li>
+            <h4>Iniciativa y curiosidad</h4>
+          <p>Tengo una terrible curiosidad por aprender y mejorar en todo aspecto que esté a mi alcance, soy una persona bastante inquieta. Por lo que a veces me aburro rápido si alguna actividad se vuelve demasiado mecánica o no presenta un desafío que me motive a superarme.</p>
+          <p>Por otro lado tengo mucha iniciativa cuando se trata de proyectos innovadores que involucran algún cambio social o desarrollo colectivo.
+          </p>
+          </li>
+        </ul>
+      </p>
+      <br>
 
   </div>
   
-  </div>
+</div>
 
   <div class ="contenedor-neon-int">
     <div class = "title-neon" >
@@ -127,37 +128,33 @@
   
     </div>
     
-    </div>
+  </div>
 
 {%endblock %}
 
 
   {% block columna4 %}
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
         <div class ="contenedor-neon-int">
           <img class = "img-habilidad" src="{{ url_for('static', filename='images/logo-python.png') }}" />
-        <div class = "title-hab" >
-        <h3>Python</h3>
-        <p class = "p-neon">Lenguaje de programación</p>
-        <br>
-        <p class="mb-4"></p>
-        <p class = "p-neon" align = "center">Python es mi lenguaje de programación preferido a la hora de resolver problemas y comenzar proyectos de mediana envergadura.</p>
-        <br>
-        <div align = "center">
-        <a href="#" class ="button-proyect"><button>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          VER
-        </button></a>
-        </div></div>
-        
+          <div class = "title-hab" >
+              <h3>Python</h3>
+              <p class = "p-neon">Lenguaje de programación</p>
+              <br>
+              <p class="mb-4"></p>
+              <p class = "p-neon" align = "center">Python es mi lenguaje de programación preferido a la hora de resolver problemas y comenzar proyectos de mediana envergadura.</p>
+              <br>
+              <div align = "center">
+                <a href="#" class ="button-proyect"><button>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  VER
+                </button></a>
+              </div>
+            </div>
         </div>
-      </div>
-      <div class="col-sm">
+
         <div class ="contenedor-neon-int">
           <img class = "img-habilidad" src="{{ url_for('static', filename='images/flask-logo.png') }}" />
         <div class = "title-hab" >
@@ -178,8 +175,7 @@
         </div></div>
         
         </div>
-      </div>
-      <div class="col-sm">
+
         <div class ="contenedor-neon-int">
           <img class = "img-habilidad" src="{{ url_for('static', filename='images/mysql.jpeg') }}" />
         <div class = "title-hab" >
@@ -200,34 +196,30 @@
         </div></div>
         
         </div>
-      </div>
-      
-    </div>
-    <div class="row">
-      <div class="col-sm">
+
+
         <div class ="contenedor-neon-int">
-          <img class = "img-habilidad" src="{{ url_for('static', filename='images/json-logo.png') }}" />
-        <div class = "title-hab" >
-        <h3>JSON</h3>
-        <p class = "p-neon">Bases de datos no relacionales </p>
-        <br>
-        <p class="mb-4"></p>
-        <p class = "p-neon" align = "center">Pero se muy bien que no siempre es necesaria una base de datos relacional y por ello he aprendido a utilizar bases de datos no relacionales como JSON así como tambien el desarrollo de sistemas CRUD para las mismas.</p>
-        <br>
-        <div align = "center">
-        <a href="#" class ="button-proyect"><button>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          VER
-        </button></a>
-        </div></div>
-        
+            <img class = "img-habilidad" src="{{ url_for('static', filename='images/json-logo.png') }}" />
+          <div class = "title-hab" >
+            <h3>JSON</h3>
+            <p class = "p-neon">Bases de datos no relacionales </p>
+            <br>
+            <p class="mb-4"></p>
+            <p class = "p-neon" align = "center">Pero se muy bien que no siempre es necesaria una base de datos relacional y por ello he aprendido a utilizar bases de datos no relacionales como JSON así como tambien el desarrollo de sistemas CRUD para las mismas.</p>
+            <br>
+            <div align = "center">
+            <a href="#" class ="button-proyect"><button>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              VER
+            </button></a>
+            </div>
+          </div>
         </div>
-        
-      </div>
-      <div class="col-sm">
+
+
         <div class ="contenedor-neon-int">
           <img class = "img-habilidad" src="{{ url_for('static', filename='images/html-logo.png') }}" />
         <div class = "title-hab" >
@@ -247,9 +239,9 @@
         </button></a>
         </div></div>
         
-        </div>
+
       </div>
-      <div class="col-sm">
+
         <div class ="contenedor-neon-int">
           <img class = "img-habilidad" src="{{ url_for('static', filename='images/css-logo.png') }}" />
         <div class = "title-hab" >
@@ -271,13 +263,9 @@
         
         </div>
       </div>
-      
-    </div>
-  </div>
-  
+
 
   {% endblock %}
-
 
 
 

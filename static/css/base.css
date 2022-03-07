@@ -1,12 +1,13 @@
+
 body{
   background-image: url('/static/images/wall2.jpg');
   background-size: cover;
 
 }
-.container{
-  height: auto;
-  width:auto;
+.intro{
+
   padding-top:3%;
+  padding-bottom:10%;
 
 }
 #capa0{
@@ -155,11 +156,10 @@ p{
 
 
 .capsula{
-  padding-left: 10%;
-  padding-top:10%;
+ margin-left:20%;
 }
 .astroboy{
-  margin-left:10%;
+  margin-left:20%;
 }
 
 .r360:hover {

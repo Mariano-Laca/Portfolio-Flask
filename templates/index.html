@@ -5,65 +5,64 @@
 {%block inicio%}
 
 <div class ="container">
-  <div align = "left">
-    <p>Mariano - Laca</p>
-    <h1>Desarrollador</h1>
-    <h1>Python</h1>
+  <div class = "intro">
+    <div align = "left">
+      <p>Mariano - Laca</p>
+      <h1>Desarrollador</h1>
+      <h1>Python</h1  >
 
-  <div class="text">
-  <!--Texto con efecto JS-->
+      <div class="text">
+        <!--Texto con efecto JS-->
+      </div>
+
     </div>
-<br><br>
-  </div>
-</div>
-
-<div id = "capa2">
-  <div id = "capa1">
-
-    <div class = "container">
-
-      <div class="row">   
-        <div class="col-6">
-        <div class ="capsula">
-  <img class = "r360"src="{{ url_for('static', filename='images/capsula-espacial.png') }}" /><!--https://www.flaticon.es/iconos-gratis/capsula-espacial--></div>
-</div>
-
-<div class="col-6">
-    <h2>Bienvenido a mi portfolio!</h2>
-    <br>
-    <p align ="left">
-       Hace algún tiempo, cuando era niño tuve la oportunidad
-       de adentrarme en el mundo de los ordenadores..
-       Y comencé a sentir curiosidad sobre como funcionaban sus aplicaciones..
-      </p>
-      <p align ="left">
-       Así que me dispuse a investigar por mi propia cuenta y conforme fui creciendo,
-       la curiosidad aumentó junto con mis conocimientos en el universo del desarrollo.
-      </p>
-      <p align ="left">
-       Desde ciberseguridad a la creación de video-juegos sentí
-       una temerosa atracción por la programación!
-       Y desde entonces he continuado mi camino como desarrollador..
-      </p>
-<br>
-      <a href="{{ url_for('mostrarproyectos')}}"><button>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        CONOCE MIS PROYECTOS
-      </button></a>
-</div>
   </div>
 </div>
 
 
+    <div class = "container-fluid">
+      <div class = "row">
+        <div class="col-md-6">
+          <div class ="capsula">
+            <img class = "r360"src="{{ url_for('static', filename='images/capsula-espacial.png') }}" /><!--https://www.flaticon.es/iconos-gratis/capsula-espacial--></div>
+          </div>
+
+
+          <div class="col-md-6">
+            <h2>Bienvenido a mi portfolio!</h2>
+            <br>
+            <p align ="left">
+             Hace algún tiempo, cuando era niño tuve la oportunidad
+             de adentrarme en el mundo de los ordenadores..
+             Y comencé a sentir curiosidad sobre como funcionaban sus aplicaciones..
+            </p>
+            <p align ="left">
+             Así que me dispuse a investigar por mi propia cuenta y conforme fui creciendo,
+             la curiosidad aumentó junto con mis conocimientos en el universo del desarrollo.
+            </p>
+            <p align ="left">
+             Desde ciberseguridad a la creación de video-juegos sentí
+             una temerosa atracción por la programación!
+             Y desde entonces he continuado mi camino como desarrollador..
+            </p>
+            <br>      
+            <a href="{{ url_for('mostrarproyectos')}}"><button>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              CONOCE MIS PROYECTOS
+            </button></a>
+          </div>
+        </div>
+      </div>
+      <br><br>
 <div id = "capa3">
   <div id = "capa1">
     <div class = "container">
       <div class="row">   
 
-    <div class="col-6">
+    <div class="col-md-6">
 
       <h2>Me gusta aprender!</h2>
       <br>
@@ -92,7 +91,7 @@
         </button></a>
   
   </div>
-  <div class="col-6">
+  <div class="col-md-6">
     <div class ="astroboy">
 <img class = "r360"src="{{ url_for('static', filename='images/astroboy.png') }}" /><!--https://png.pngtree.com/png-clipart/20210330/ourlarge/pngtree-planet-reading-astronaut-png-image_3165023.jpg--></div>
 </div>
